@@ -1,0 +1,19 @@
+
+Lmod is automatically replacing "intel-oneapi-mkl/2022.0.2" with
+"intel-mkl/2020.4.304".
+
+
+Lmod is automatically replacing "intel-oneapi-mkl/2022.0.2" with
+"intel-mkl/2020.4.304".
+
+
+Inactive Modules:
+  1) intel-oneapi-mkl
+
+kpoints: 6
+kpoints: 7
+kpoints: 8
+kpoints: 9
+kpoints: 10
+kpoints: 11
+kpoints: 12

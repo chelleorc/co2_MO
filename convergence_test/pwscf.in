@@ -1,0 +1,50 @@
+&CONTROL
+  calculation = 'scf'
+  etot_conv_thr =   1.2000000000d-04
+  forc_conv_thr =   1.0000000000d-04
+  outdir = './out/'
+  prefix = 'CO2'
+  pseudo_dir = './pseudo/'
+  tprnfor = .true.
+  tstress = .true.
+/
+&SYSTEM
+  degauss =   1.4699723600d-02
+  ecutrho =   4.0000000000d+02
+  ecutwfc =   68.0
+  ibrav = 0
+  nat = 12
+  nosym = .true.
+  ntyp = 2
+  occupations = 'smearing'
+  smearing = 'cold'
+  nbdn = 24
+/
+&ELECTRONS
+  conv_thr =   2.4000000000d-09
+  diagonalization = 'david'
+  electron_maxstep = 80
+  mixing_beta =   4.0000000000d-01
+/
+ATOMIC_SPECIES
+C      12.0107 C.pbesol-n-rrkjus_psl.1.0.0.UPF
+O      15.9994 O.pbesol-n-rrkjus_psl.1.0.0.UPF
+ATOMIC_POSITIONS {crystal}
+C            0.0000000000       0.0000000000       0.0000000000 
+C            0.5000000000       0.0000000000       0.5000000000 
+C            0.5000000000       0.5000000000       0.0000000000 
+C            0.0000000000       0.5000000000       0.5000000000 
+O            0.1225369800       0.1225369800       0.1225369800 
+O            0.8774630200       0.8774630200       0.8774630200 
+O            0.3774630200       0.8774630200       0.6225369800 
+O            0.6225369800       0.1225369800       0.3774630200 
+O            0.6225369800       0.3774630200       0.8774630200 
+O            0.3774630200       0.6225369800       0.1225369800 
+O            0.8774630200       0.6225369800       0.3774630200 
+O            0.1225369800       0.3774630200       0.6225369800 
+K_POINTS {automatic}
+8 8 8 0 0 0
+CELL_PARAMETERS angstrom
+      5.4970732800       0.0000000000       0.0000000000
+      0.0000000000       5.4970732800       0.0000000000
+      0.0000000000       0.0000000000       5.4970732800
