@@ -1,0 +1,5 @@
+&bands
+    prefix = "CO2"
+    outdir = "./out"
+    filband = "_data/CO2.bands.dat"
+/

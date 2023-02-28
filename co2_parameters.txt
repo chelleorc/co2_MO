@@ -1,0 +1,20 @@
+---------------
+Carbon Dioxide
+---------------
+
+Number of atoms
+12 atoms
+4 carbons
+8 oxygens
+
+Size of crystal (cell parameters in angstroms)
+      5.4970732800       0.0000000000       0.0000000000
+      0.0000000000       5.4970732800       0.0000000000
+      0.0000000000       0.0000000000       5.4970732800
+
+Number of bands
+8 bands
+4 valence
+4 conduction
+
+

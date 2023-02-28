@@ -1,0 +1,9 @@
+&inputpp
+  outdir     =  '/mnt/home/landerson1/ceph/projects/wannier/co2/wannier/out'
+  prefix     =  'CO2'
+  seedname   =  'co2'
+  write_amn  =  .true.
+  write_mmn  =  .true.
+  write_unk  =  .true.
+  reduce_unk =  .true.
+/
